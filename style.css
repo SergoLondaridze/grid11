@@ -1,15 +1,15 @@
 .container{
    max-width: 1366px;
    width: 100%;
+   background-color: #F7F8FA;
 }
 .container1{
    display: grid;
-   grid-template-columns: 300px  1000px;
+   grid-template-columns: 300px  1048px;
    
 }
 .grid1{
-   width: 100%;
-   height: 1557px;
+   height: 1300px; 
 }
 .left-panel{
    display: grid;
@@ -41,11 +41,14 @@
    color: white;
 }
 .header{
+  
+   padding-right: 20px;
    display: flex;
    flex-direction: row;
    height: 80px;
    align-items: center;
    justify-content: space-between;
+   background-color: #FFFFFF;
 }
 .account{
    display: flex;
@@ -64,6 +67,9 @@
    width: 70px;
    justify-content: space-between;
 }
+.right-panel{
+   background-color: #F7F8FA;
+}
 .strauss{
    font-size: 16px;
    font-weight: 600;
@@ -74,12 +80,11 @@
    justify-content: space-between;
 }
 .header1{
-   width: 100%;
    display: grid;
-   grid-template-columns: 250px 250px 250px 250px;
+   grid-template-columns: 240px 240px 240px 240px;
    grid-row-gap: 30px;
-   margin-top: 35px;
-   margin-left: 30px;
+   margin: 30px 20px;
+   grid-column-gap: 16px;
 }
 
 .line{
@@ -91,6 +96,10 @@
 .box1{
    width: 100%;
    height: 214px;
+   background-color: #FFFFFF;
+   padding-top: 40px;
+   padding-left: 20px;
+ 
 }
 .img1{
    font-size: 50px;
@@ -128,4 +137,178 @@
    border-right: 20px solid #935CCB ;
    border-bottom:20px solid #43E0AA ;
    transform: rotate(-40deg);
+}
+.salesrepeort img{
+   width: 600px;
+   margin-left: 20px;
+  
+}
+.line2{
+   width: 40px;
+   height: 3px;
+   background-color: #83BEDF;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.main{
+   display: grid;
+   grid-template-columns: 600px 440px;
+   
+}
+.boxstatic{
+   margin-left: 10px;
+}
+.userstatistic{
+   margin-top: 30px;
+}
+.staticdiagram{
+   /* margin-left: 30px; */
+   margin-top: 5px;
+   height: 400px;
+   
+   display: grid;
+   grid-template-columns: 255px 103px;
+   grid-column-gap: 31px;
+}
+.static{
+   margin-top: 90px;
+   
+   /* margin-left: 10px; */
+}
+.static div{
+   margin-bottom: 30px;
+  
+}
+.static span{
+   font-size: 17px;
+}
+.static1 img{
+   margin-right: 5px;
+   margin-top: 3px;
+}
+.static1 p{
+   margin-top: 10px;
+   margin-left: 15px;
+   font-size: 28px;
+   font-weight: bold;
+}
+.circle1{
+   
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #24AEFC;
+   margin-right: 10px;
+}
+.circle2{
+   margin-right: 10px;
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #935CCB;
+}
+.circle3{
+   margin-right: 10px;
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   border-radius: 50%;
+   background-color: #43E0AA;
+}
+
+.desk{
+   display: inline-block;
+   margin-right: 10px;
+}
+.lap{
+   display: inline-block;
+   margin-right: 10px;
+}
+.mob{
+   display: inline-block;
+   margin-right: 10px;
+}
+.desktop{
+   display: inline-block;
+}
+.laptop{
+   display: inline-block;
+}
+.mobile{
+   display: inline-block;
+}
+.headerstatistics{
+   height: 490px;
+   background-color: #FFFFFF;
+   margin-left: 30px;
+}
+.device{
+   font-size: 18px;
+  margin-left: 30px;
+}
+.footcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.foot1{
+   height: 400px;
+   width: 500px;
+   background-color: #FFFFFF;
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-around;
+   margin-left: 20px;
+}
+.imgmask1{
+   display: inline-block;
+}
+.username1{
+   display: inline-block;
+}
+.username1 p:first-child{
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.newconnect{
+   margin-left: 40px;
+   margin-top: 20px;
+}
+.mask1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 200px;
+   height: 70px;
+   margin: 25px 40px;
+}
+.linfoot{
+   width: 40px;
+   height: 3px;
+   background-color: #83BEDF;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   
+}
+
+.foot2{
+   
+   font-size: 18px;
+   height: 400px;
+   width: 500px;
+   background-color: #FFFFFF;
+   margin-right: 10px;
+}
+
+.rame{
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.form input{
+   margin-top: 40px;
+   margin-left: 30px;
+}
+#chek1{
+   padding: 40px;
 }
